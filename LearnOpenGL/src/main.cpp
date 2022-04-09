@@ -4,5 +4,5 @@
 
 int main(int argc, char** argv)
 {
-	std::cout << "opengl" << std::endl;
+	//std::cout << "opengl" << std::endl;
 }
