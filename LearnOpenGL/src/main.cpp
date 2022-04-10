@@ -108,14 +108,12 @@ int main(int argc, char** argv)
 	}
 
 	float vertices[] = {
-	 0.5f,  0.5f, 0.0f,  // top right
-	 0.5f, -0.5f, 0.0f,  // bottom right
-	-0.5f, -0.5f, 0.0f,  // bottom left
-	-0.5f,  0.5f, 0.0f   // top left 
+	-1, 0, 0,	0, 0, 0,  -0.5, 1, 0,
+				1, 0, 0,  0.5, 1, 0		  
 	};
 	unsigned int indices[] = {  // note that we start from 0!
-	1, 3, 2,   // first triangle
-	1, 3, 0    // second triangle
+	2, 0, 1,   // first triangle
+	1, 3, 4    // second triangle
 	};
 
 	unsigned int VAO,VBO, EBO; 
@@ -128,7 +126,7 @@ int main(int argc, char** argv)
 	glEnableVertexAttribArray(0);
 
 	glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices, GL_STATIC_DRAW);
-	glBindBuffer(GL_ARRAY_BUFFER, 0);
+	glBindBuffer(GL_ARRAY_BUFFER, 0);	
 
 	glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(indices), 
 		indices, GL_STATIC_DRAW);
