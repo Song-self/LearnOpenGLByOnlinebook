@@ -22,4 +22,13 @@
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\learnopengl\shader_s.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="3.3.shader.vs" />
+    <None Include="3.3.shader.fs" />
+  </ItemGroup>
 </Project>
