@@ -98,10 +98,14 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\learnopengl\shader_s.h" />
+    <ClInclude Include="vendor\Include\stb_image.h" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="3.3.shader.vs" />
-    <None Include="3.3.shader.fs" />
+    <None Include="shader\4.2.texture.vs" />
+    <None Include="shader\4.2.texture.fs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\tex\container.jpg" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
