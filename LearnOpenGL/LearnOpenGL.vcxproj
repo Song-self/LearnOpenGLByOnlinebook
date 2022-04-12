@@ -61,7 +61,7 @@
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp17</LanguageStandard>
       <LanguageStandard_C>stdc17</LanguageStandard_C>
-      <AdditionalIncludeDirectories>$(ProjectDir)src</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)src; $(ProjectDir)vendor/Include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -101,8 +101,8 @@
     <ClInclude Include="vendor\Include\stb_image.h" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="shader\4.2.texture.vs" />
-    <None Include="shader\4.2.texture.fs" />
+    <None Include="shader\5.1.transform.vs" />
+    <None Include="shader\5.1.transform.fs" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="res\tex\container.jpg" />
