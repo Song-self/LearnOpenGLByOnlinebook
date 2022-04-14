@@ -29,10 +29,13 @@
     <ClInclude Include="vendor\Include\stb_image.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="src\learnopengl\camera.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="shader\6.1.coordinate_systems.vs" />
-    <None Include="shader\6.1.coordinate_systems.fs" />
+    <None Include="shader\7.3.camera.vs" />
+    <None Include="shader\7.3.camera.fs" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="res\tex\container.jpg">
