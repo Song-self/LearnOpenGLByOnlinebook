@@ -98,12 +98,14 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\learnopengl\camera.h" />
-    <ClInclude Include="src\learnopengl\shader_s.h" />
+    <ClInclude Include="src\learnopengl\shader_m.h" />
     <ClInclude Include="vendor\Include\stb_image.h" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="shader\7.3.camera.vs" />
-    <None Include="shader\7.3.camera.fs" />
+    <None Include="shader\2.2.basic_lighting.vs" />
+    <None Include="shader\2.2.basic_lighting.fs" />
+    <None Include="shader\2.2.light_cube.fs" />
+    <None Include="shader\2.2.light_cube.vs" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="res\tex\container.jpg" />
