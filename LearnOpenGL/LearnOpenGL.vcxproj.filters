@@ -34,13 +34,22 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="shader\3.1.materials.vs" />
-    <None Include="shader\3.1.materials.fs" />
-    <None Include="shader\3,1.light_cube.vs" />
-    <None Include="shader\3.1.light_cube.fs" />
+    <None Include="shader\4.4.lighting_maps.vs" />
+    <None Include="shader\4.4.lighting_maps.fs" />
+    <None Include="shader\4.4.light_cube.vs" />
+    <None Include="shader\4.4.light_cube.fs" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="res\tex\container.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\tex\container2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\tex\container2_specular.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\tex\matrix.jpg">
       <Filter>资源文件</Filter>
     </Image>
   </ItemGroup>
