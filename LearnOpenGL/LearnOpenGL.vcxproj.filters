@@ -34,10 +34,10 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="shader\4.4.lighting_maps.vs" />
-    <None Include="shader\4.4.lighting_maps.fs" />
-    <None Include="shader\4.4.light_cube.vs" />
-    <None Include="shader\4.4.light_cube.fs" />
+    <None Include="shader\6.multiple_lights.vs" />
+    <None Include="shader\6.multiple_lights.fs" />
+    <None Include="shader\6.light_cube.vs" />
+    <None Include="shader\6.light_cube.fs" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="res\tex\container.jpg">
