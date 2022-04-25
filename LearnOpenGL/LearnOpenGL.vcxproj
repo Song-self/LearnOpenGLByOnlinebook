@@ -105,16 +105,17 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="..\Debug\assimp-vc142-mtd.dll" />
-    <None Include="shader\1.1.depth_testing.vs" />
-    <None Include="shader\1.1.depth_testing.fs" />
+    <None Include="shader\2.stencil_testing.vs" />
+    <None Include="shader\2.stencil_testing.fs" />
     <None Include="shader\6.light_cube.fs" />
     <None Include="shader\6.light_cube.vs" />
+    <None Include="shader\2.stencil_single_color.fs" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="res\tex\container.jpg" />
-    <Image Include="res\tex\container2.png" />
-    <Image Include="res\tex\container2_specular.png" />
-    <Image Include="res\tex\matrix.jpg" />
+    <Image Include="resources\textures\container.jpg" />
+    <Image Include="resources\textures\container2.png" />
+    <Image Include="resources\textures\container2_specular.png" />
+    <Image Include="resources\textures\matrix.jpg" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
