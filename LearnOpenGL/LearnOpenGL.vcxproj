@@ -105,10 +105,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="..\Debug\assimp-vc142-mtd.dll" />
-    <None Include="shader\3.1.blending.vs" />
-    <None Include="shader\3.1.blending.fs" />
-    <None Include="shader\6.light_cube.fs" />
-    <None Include="shader\6.light_cube.vs" />
+    <None Include="shader\5.1.framebuffers.vs" />
+    <None Include="shader\5.1.framebuffers.fs" />
+    <None Include="shader\5.1.framebuffers_screen.fs" />
+    <None Include="shader\5.1.framebuffers_screen.vs" />
     <None Include="shader\2.stencil_single_color.fs" />
   </ItemGroup>
   <ItemGroup>
