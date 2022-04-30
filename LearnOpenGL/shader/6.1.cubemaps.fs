@@ -9,6 +9,6 @@ uniform sampler2D texture1;
 
 void main()
 {    
-    FragColor = 1 - texture(texture1, TexCoords);
+    FragColor = texture(texture1, TexCoords);
 }
 
