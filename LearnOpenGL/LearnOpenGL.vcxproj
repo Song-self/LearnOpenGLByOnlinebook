@@ -105,10 +105,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="..\Debug\assimp-vc142-mtd.dll" />
-    <None Include="shader\6.1.cubemaps.vs" />
-    <None Include="shader\6.1.cubemaps.fs" />
-    <None Include="shader\6.1.skybox.fs" />
-    <None Include="shader\6.1.skybox.vs" />
+    <None Include="shader\8.yellow.fs" />
+    <None Include="shader\8.advanced_glsl.vs" />
+    <None Include="shader\8.red.fs" />
+    <None Include="shader\8.green.fs" />
+    <None Include="shader\8.blue.fs" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="resources\textures\container.jpg" />
