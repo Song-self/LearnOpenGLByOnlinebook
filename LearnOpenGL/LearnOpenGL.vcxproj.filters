@@ -41,9 +41,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="..\Debug\assimp-vc142-mtd.dll" />
-    <None Include="shader\9.2.geometry_shader.fs" />
-    <None Include="shader\9.2.geometry_shader.vs" />
-    <None Include="shader\9.2.geometry_shader.gs" />
+    <None Include="shader\9.3.normal_visualization.fs" />
+    <None Include="shader\9.3.normal_visualization.vs" />
+    <None Include="shader\9.3.normal_visualization.gs" />
+    <None Include="shader\9.3.default.vs" />
+    <None Include="shader\9.3.default.fs" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="resources\textures\container.jpg">
