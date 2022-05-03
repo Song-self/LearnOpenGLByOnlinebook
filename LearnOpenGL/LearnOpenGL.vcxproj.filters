@@ -40,12 +40,10 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="shader\8.advanced_glsl.vs" />
-    <None Include="shader\8.red.fs" />
-    <None Include="shader\8.blue.fs" />
-    <None Include="shader\8.green.fs" />
     <None Include="..\Debug\assimp-vc142-mtd.dll" />
-    <None Include="shader\8.yellow.fs" />
+    <None Include="shader\9.2.geometry_shader.fs" />
+    <None Include="shader\9.2.geometry_shader.vs" />
+    <None Include="shader\9.2.geometry_shader.gs" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="resources\textures\container.jpg">
