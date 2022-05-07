@@ -108,8 +108,8 @@
     <None Include="shader\9.3.normal_visualization.fs" />
     <None Include="shader\9.3.normal_visualization.gs" />
     <None Include="shader\9.3.normal_visualization.vs" />
-    <None Include="shader\10.1.instancing.fs" />
-    <None Include="shader\10.1.instancing.vs" />
+    <None Include="shader\11.1.anti_aliasing.fs" />
+    <None Include="shader\11.1.anti_aliasing.vs" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="resources\textures\container.jpg" />
