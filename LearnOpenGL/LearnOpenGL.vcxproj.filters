@@ -41,11 +41,8 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="..\Debug\assimp-vc142-mtd.dll" />
-    <None Include="shader\9.3.normal_visualization.fs" />
-    <None Include="shader\9.3.normal_visualization.vs" />
-    <None Include="shader\9.3.normal_visualization.gs" />
-    <None Include="shader\11.1.anti_aliasing.vs" />
-    <None Include="shader\11.1.anti_aliasing.fs" />
+    <None Include="shader\1.advanced_lighting.vs" />
+    <None Include="shader\1.advanced_lighting.fs" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="resources\textures\container.jpg">
