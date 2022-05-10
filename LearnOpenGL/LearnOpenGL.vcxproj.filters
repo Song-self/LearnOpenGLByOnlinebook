@@ -41,8 +41,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="..\Debug\assimp-vc142-mtd.dll" />
-    <None Include="shader\1.advanced_lighting.vs" />
-    <None Include="shader\1.advanced_lighting.fs" />
+    <None Include="shader\6.multiple_lights.vs" />
+    <None Include="shader\6.multiple_lights.fs" />
+    <None Include="shader\6.light_cube.vs" />
+    <None Include="shader\6.light_cube.fs" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="resources\textures\container.jpg">
