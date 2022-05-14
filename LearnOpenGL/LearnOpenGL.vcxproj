@@ -105,11 +105,8 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="..\Debug\assimp-vc142-mtd.dll" />
-    <None Include="shader\3.2.1.point_shadows.fs" />
-    <None Include="shader\3.2.1.point_shadows.vs" />
-    <None Include="shader\3.2.1.point_shadows_depth.fs" />
-    <None Include="shader\3.2.1.point_shadows_depth.gs" />
-    <None Include="shader\3.2.1.point_shadows_depth.vs" />
+    <None Include="shader\4.normal_mapping.fs" />
+    <None Include="shader\4.normal_mapping.vs" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="resources\textures\container.jpg" />
