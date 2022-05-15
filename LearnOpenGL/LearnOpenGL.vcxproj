@@ -105,8 +105,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="..\Debug\assimp-vc142-mtd.dll" />
-    <None Include="shader\5.3.parallax_mapping.fs" />
-    <None Include="shader\5.3.parallax_mapping.vs" />
+    <None Include="shader\6.hdr.fs" />
+    <None Include="shader\6.hdr.vs" />
+    <None Include="shader\6.lighting.fs" />
+    <None Include="shader\6.lighting.vs" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="resources\textures\container.jpg" />
