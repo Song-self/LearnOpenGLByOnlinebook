@@ -105,10 +105,13 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="..\Debug\assimp-vc142-mtd.dll" />
-    <None Include="shader\6.hdr.fs" />
-    <None Include="shader\6.hdr.vs" />
-    <None Include="shader\6.lighting.fs" />
-    <None Include="shader\6.lighting.vs" />
+    <None Include="shader\7.bloom.fs" />
+    <None Include="shader\7.bloom.vs" />
+    <None Include="shader\7.bloom_final.fs" />
+    <None Include="shader\7.bloom_final.vs" />
+    <None Include="shader\7.blur.fs" />
+    <None Include="shader\7.blur.vs" />
+    <None Include="shader\7.light_box.fs" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="resources\textures\container.jpg" />
