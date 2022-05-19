@@ -41,12 +41,8 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="..\Debug\assimp-vc142-mtd.dll" />
-    <None Include="shader\9.ssao.vs" />
-    <None Include="shader\9.ssao_lighting.fs" />
-    <None Include="shader\9.ssao_geometry.vs" />
-    <None Include="shader\9.ssao_geometry.fs" />
-    <None Include="shader\9.ssao_blur.fs" />
-    <None Include="shader\9.ssao.fs" />
+    <None Include="shader\1.1.pbr.vs" />
+    <None Include="shader\1.1.pbr.fs" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="resources\textures\container.jpg">
