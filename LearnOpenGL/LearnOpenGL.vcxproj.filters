@@ -41,13 +41,14 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="..\Debug\assimp-vc142-mtd.dll" />
-    <None Include="shader\2.1.1.pbr.vs" />
-    <None Include="shader\2.1.1.pbr.fs" />
-    <None Include="shader\2.1.1.cubemap.vs" />
-    <None Include="shader\2.1.1.equirectangular_to_cubemap.fs" />
-    <None Include="shader\2.1.1.background.vs" />
-    <None Include="shader\2.1.1.background.fs" />
+    <None Include="shader\2.1.2.pbr.vs" />
+    <None Include="shader\2.1.2.pbr.fs" />
+    <None Include="shader\2.1.2.cubemap.vs" />
+    <None Include="shader\2.1.2.equirectangular_to_cubemap.fs" />
+    <None Include="shader\2.1.2.background.vs" />
+    <None Include="shader\2.1.2.background.fs" />
     <None Include="resources\textures\hdr\newport_loft.hdr" />
+    <None Include="shader\2.1.2.irradiance_convolution.fs" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="resources\textures\container.jpg">
