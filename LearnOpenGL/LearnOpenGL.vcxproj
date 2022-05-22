@@ -105,8 +105,13 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="..\Debug\assimp-vc142-mtd.dll" />
-    <None Include="shader\1.2.pbr.fs" />
-    <None Include="shader\1.2.pbr.vs" />
+    <None Include="resources\textures\hdr\newport_loft.hdr" />
+    <None Include="shader\2.1.1.background.fs" />
+    <None Include="shader\2.1.1.background.vs" />
+    <None Include="shader\2.1.1.equirectangular_to_cubemap.fs" />
+    <None Include="shader\2.1.1.cubemap.vs" />
+    <None Include="shader\2.1.1.pbr.fs" />
+    <None Include="shader\2.1.1.pbr.vs" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="resources\textures\container.jpg" />
