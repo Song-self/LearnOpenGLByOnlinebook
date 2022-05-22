@@ -106,16 +106,16 @@
   <ItemGroup>
     <None Include="..\Debug\assimp-vc142-mtd.dll" />
     <None Include="resources\textures\hdr\newport_loft.hdr" />
-    <None Include="shader\2.2.1.background.fs" />
-    <None Include="shader\2.2.1.background.vs" />
-    <None Include="shader\2.2.1.brdf.fs" />
-    <None Include="shader\2.2.1.brdf.vs" />
-    <None Include="shader\2.2.1.equirectangular_to_cubemap.fs" />
-    <None Include="shader\2.2.1.cubemap.vs" />
-    <None Include="shader\2.2.1.irradiance_convolution.fs" />
-    <None Include="shader\2.2.1.pbr.fs" />
-    <None Include="shader\2.2.1.pbr.vs" />
-    <None Include="shader\2.2.1.prefilter.fs" />
+    <None Include="shader\2.2.2.background.fs" />
+    <None Include="shader\2.2.2.background.vs" />
+    <None Include="shader\2.2.2.brdf.fs" />
+    <None Include="shader\2.2.2.brdf.vs" />
+    <None Include="shader\2.2.2.equirectangular_to_cubemap.fs" />
+    <None Include="shader\2.2.2.cubemap.vs" />
+    <None Include="shader\2.2.2.irradiance_convolution.fs" />
+    <None Include="shader\2.2.2.pbr.fs" />
+    <None Include="shader\2.2.2.pbr.vs" />
+    <None Include="shader\2.2.2.prefilter.fs" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="resources\textures\container.jpg" />
